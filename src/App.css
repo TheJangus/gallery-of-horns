@@ -18,3 +18,22 @@ h2 {
   text-align: center;
   width: 100%;
 }
+
+.App {
+  text-align: center;
+}
+
+#card-body {
+  background-color: blue;
+  margin-bottom: 100px;
+}
+
+div.card-title.h5 { 
+  /* text-align: center; */
+  font-size: 26px;
+  font-weight: bolder;
+}
+
+.card {
+  margin-bottom:30px;
+}
