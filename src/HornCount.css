@@ -1,0 +1,13 @@
+label.form-label {
+    color: rgb(121, 29, 207);
+    border: dashed rgb(114, 161, 250);
+    border-radius: 30px;
+    padding: 10px;
+    width: 430px;
+    margin-bottom: 30px;
+  }
+  #formcontrol {
+    width:100px;
+    display: inline-block;
+    margin-left: 20px;
+  }
