@@ -1,4 +1,5 @@
 import React from 'react';
+import './Footer.css';
 
 
 
@@ -7,7 +8,7 @@ class Footer extends React.Component{
         return(
             <>
             <Footer>
-              <h3>Created by: J.Angus</h3>
+              <h3>Created by: J.Angus, 2022</h3>
             </Footer>
             </>
         )
