@@ -5,8 +5,8 @@ import Header from './Header.js';
 import Main from './Main';
 import Footer from './Footer.js';
 import About from './About.js';
-import SelectedBeast from './SelectedBeast'
-import data from './data.json'
+import SelectedBeast from './SelectedBeast';
+import data from './data.json';
 
 //class component
 class App extends React.Component {
@@ -31,7 +31,7 @@ class App extends React.Component {
   }
   render() {
     return (
-      <>
+      <div>
         <Header />
         <About />
         <Main
@@ -45,7 +45,7 @@ class App extends React.Component {
           selectedBeast={this.state.selectedBeast}
         />;
         <Footer />;
-      </>
+      </div>
     )
   }
 }
