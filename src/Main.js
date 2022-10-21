@@ -1,6 +1,6 @@
 import React from 'react';
 import HornedBeasts from './HornedBeasts';
-import CardDeck from 'react-bootstrap/CardDeck';
+import Card from 'react-bootstrap/Card';
 import HornCount from './HornCount.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -13,7 +13,7 @@ class Main extends React.Component {
                         <HornCount
                             presentBeastsByDre={this.props.presentBeastsByDre}
                         />
-                        <CardDeck>
+                        <Card>
                             {this.props.beasts.map((thisroastBeast, index) => {
                                 return (
                                     <div key={index}>
@@ -27,7 +27,7 @@ class Main extends React.Component {
                                     </div>
                                 )
                             })}
-                        </CardDeck>
+                        </Card>
 
                     </>
                 </Main>
