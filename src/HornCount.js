@@ -3,6 +3,7 @@ import './HornCount.css';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import data from './data.json';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 class HornCount extends React.Component {

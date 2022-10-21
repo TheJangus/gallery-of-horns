@@ -7,6 +7,7 @@ import Footer from './Footer.js';
 import About from './About.js';
 import SelectedBeast from './SelectedBeast';
 import data from './data.json';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 //class component
 class App extends React.Component {
