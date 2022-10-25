@@ -3,7 +3,7 @@ import './About.css';
 
 class About extends React.Component {
   render() {
-    return(<p>Which Horned Beasts will win your vote?</p>);
+    return(<p>Which Horned Beasts will win you over?</p>);
   }
 }
 

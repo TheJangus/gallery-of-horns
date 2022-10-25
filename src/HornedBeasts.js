@@ -17,8 +17,8 @@ class HornedBeasts extends React.Component {
 
     render() {
 
-        const title = this.props.animalName;
-        const image = this.props.imageUrl;
+        const title = this.props.title;
+        const image = this.props.img;
         const description = this.props.description;
 
         return (
