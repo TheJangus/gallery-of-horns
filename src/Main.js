@@ -8,21 +8,21 @@ class Main extends React.Component {
     render() {
         return (
             <>
-                <Main>
+                <main>
                     <>
                         <HornCount
                             presentBeastsByDre={this.props.presentBeastsByDre}
                         />
                         <Card>
-                            {this.props.beasts.map((thisroastBeast, index) => {
+                            {this.props.beasts.map((this.roastBeast, index) => {
                                 return (
                                     <div key={index}>
                                         <HornedBeasts
                                             showModal={this.props.showModal}
-                                            title={thisroastBeast.title}
-                                            img={thisroastBeast.image_url}
-                                            description={thisroastBeast.description}
-                                            horns={thisroastBeast.horns}
+                                            title={this.roastBeast.title}
+                                            img={this.roastBeast.image_url}
+                                            description={this.roastBeast.description}
+                                            horns={this.roastBeast.horns}
                                         />
                                     </div>
                                 )
@@ -30,7 +30,7 @@ class Main extends React.Component {
                         </Card>
 
                     </>
-                </Main>
+                </main>
             </>
         )
     }
